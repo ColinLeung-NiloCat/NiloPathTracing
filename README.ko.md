@@ -6,7 +6,7 @@
 - 러닝 커브가 없습니다. 씬 에셋을 수정할 필요도 없습니다.
 - [NiloToon](https://github.com/ColinLeung-NiloCat/UnityURPToonLitShaderExample) 캐릭터를 path tracing에서 네이티브 지원.
 - 뮤직비디오(MV), 3D 라이브, 콘서트, 버추얼 프로덕션을 위해 설계. VTuber 업계를 위한 Unity 라이팅의 새로운 시대를 엽니다.
-- NiloPT 영상: [MV1](https://youtu.be/9nlSDtqcS-Q) / [MV2](https://youtu.be/t_yeGLrhi6Q) / [MV3](https://youtu.be/FVIbkuZhtq0) / [MV4](https://youtu.be/iq7ACdJfv8U) / [MV5](https://youtu.be/U4a0Vj2BxVY) / [MV6](https://youtu.be/wgxyj_5rET8) / [MV7](https://www.youtube.com/watch?v=paCZO7G3YKE) / [PView1](https://youtu.be/vfMJ43fT3os) / [PView2](https://youtu.be/tb0aHot0VwQ) / [PView3](https://youtu.be/I0l9cNORIpM)
+- NiloPT 영상: [MV1](https://youtu.be/9nlSDtqcS-Q) / [MV2](https://youtu.be/t_yeGLrhi6Q) / [MV3](https://youtu.be/FVIbkuZhtq0) / [MV4](https://youtu.be/iq7ACdJfv8U) / [MV5](https://youtu.be/U4a0Vj2BxVY) / [MV6](https://youtu.be/wgxyj_5rET8) / [MV7](https://www.youtube.com/watch?v=paCZO7G3YKE) / [MV8](https://www.youtube.com/watch?v=GEnSB1JBfc4) / [PView1](https://youtu.be/vfMJ43fT3os) / [PView2](https://youtu.be/tb0aHot0VwQ) / [PView3](https://youtu.be/I0l9cNORIpM)
 
 ## NiloPT ON/OFF (클릭 한 번)
 [![Banner7](images/preview/NiloPT_Banner7.avif)](images/full/NiloPT_Banner7.avif?raw=true)
@@ -199,5 +199,22 @@ NiloPT는 URP / Asset Store / GitHub에 있는 기존 rasterization 라이팅 �
 [![UserCreation98](images/preview/NiloPT_UserCreation98.avif)](images/full/NiloPT_UserCreation98.png?raw=true)
 [![UserCreation99](images/preview/NiloPT_UserCreation99.avif)](images/full/NiloPT_UserCreation99.png?raw=true)
 [![UserCreation100](images/preview/NiloPT_UserCreation100.avif)](images/full/NiloPT_UserCreation100.png?raw=true)
+
+### 위시스 WISHes (https://www.youtube.com/@WISHes_grim)
+- [【 MV 】 WISHes(위시스) - I MY ME MINE](https://www.youtube.com/watch?v=GEnSB1JBfc4)
+
+[![UserCreation101](images/preview/NiloPT_UserCreation101.avif)](images/full/NiloPT_UserCreation101.png?raw=true)
+[![UserCreation102](images/preview/NiloPT_UserCreation102.avif)](images/full/NiloPT_UserCreation102.png?raw=true)
+[![UserCreation103](images/preview/NiloPT_UserCreation103.avif)](images/full/NiloPT_UserCreation103.png?raw=true)
+[![UserCreation104](images/preview/NiloPT_UserCreation104.avif)](images/full/NiloPT_UserCreation104.png?raw=true)
+[![UserCreation105](images/preview/NiloPT_UserCreation105.avif)](images/full/NiloPT_UserCreation105.png?raw=true)
+[![UserCreation106](images/preview/NiloPT_UserCreation106.avif)](images/full/NiloPT_UserCreation106.png?raw=true)
+[![UserCreation107](images/preview/NiloPT_UserCreation107.avif)](images/full/NiloPT_UserCreation107.png?raw=true)
+[![UserCreation108](images/preview/NiloPT_UserCreation108.avif)](images/full/NiloPT_UserCreation108.png?raw=true)
+[![UserCreation109](images/preview/NiloPT_UserCreation109.avif)](images/full/NiloPT_UserCreation109.png?raw=true)
+[![UserCreation110](images/preview/NiloPT_UserCreation110.avif)](images/full/NiloPT_UserCreation110.png?raw=true)
+[![UserCreation111](images/preview/NiloPT_UserCreation111.avif)](images/full/NiloPT_UserCreation111.png?raw=true)
+[![UserCreation112](images/preview/NiloPT_UserCreation112.avif)](images/full/NiloPT_UserCreation112.png?raw=true)
+
 
 *NiloPathTracing은 독립 제품이며 Unity Technologies 또는 NVIDIA와 제휴하거나 승인을 받지 않았습니다. Unity, URP, RTX, DLSS, DirectX는 각 소유자의 상표입니다.*

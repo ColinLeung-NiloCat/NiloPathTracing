@@ -6,7 +6,7 @@
 - 零学习成本，也无需修改场景资产。
 - 原生支持 [NiloToon](https://github.com/ColinLeung-NiloCat/UnityURPToonLitShaderExample) 角色的 path tracing 渲染。
 - 专为音乐视频（MV）、3D Live、演唱会与虚拟制作打造。为 VTuber 行业开启 Unity 光照的新时代。
-- NiloPT 视频：[MV1](https://youtu.be/9nlSDtqcS-Q) / [MV2](https://youtu.be/t_yeGLrhi6Q) / [MV3](https://youtu.be/FVIbkuZhtq0) / [MV4](https://youtu.be/iq7ACdJfv8U) / [MV5](https://youtu.be/U4a0Vj2BxVY) / [MV6](https://youtu.be/wgxyj_5rET8) / [MV7](https://www.youtube.com/watch?v=paCZO7G3YKE) / [PView1](https://youtu.be/vfMJ43fT3os) / [PView2](https://youtu.be/tb0aHot0VwQ) / [PView3](https://youtu.be/I0l9cNORIpM)
+- NiloPT 视频：[MV1](https://youtu.be/9nlSDtqcS-Q) / [MV2](https://youtu.be/t_yeGLrhi6Q) / [MV3](https://youtu.be/FVIbkuZhtq0) / [MV4](https://youtu.be/iq7ACdJfv8U) / [MV5](https://youtu.be/U4a0Vj2BxVY) / [MV6](https://youtu.be/wgxyj_5rET8) / [MV7](https://www.youtube.com/watch?v=paCZO7G3YKE) / [MV8](https://www.youtube.com/watch?v=GEnSB1JBfc4) / [PView1](https://youtu.be/vfMJ43fT3os) / [PView2](https://youtu.be/tb0aHot0VwQ) / [PView3](https://youtu.be/I0l9cNORIpM)
 
 ## 一键开启 / 关闭 NiloPT
 [![Banner7](images/preview/NiloPT_Banner7.avif)](images/full/NiloPT_Banner7.avif?raw=true)
@@ -199,5 +199,22 @@ NiloPT 可取代 URP / Asset Store / GitHub 中大部分现有的 rasterization 
 [![UserCreation98](images/preview/NiloPT_UserCreation98.avif)](images/full/NiloPT_UserCreation98.png?raw=true)
 [![UserCreation99](images/preview/NiloPT_UserCreation99.avif)](images/full/NiloPT_UserCreation99.png?raw=true)
 [![UserCreation100](images/preview/NiloPT_UserCreation100.avif)](images/full/NiloPT_UserCreation100.png?raw=true)
+
+### 위시스 WISHes (https://www.youtube.com/@WISHes_grim)
+- [【 MV 】 WISHes(위시스) - I MY ME MINE](https://www.youtube.com/watch?v=GEnSB1JBfc4)
+
+[![UserCreation101](images/preview/NiloPT_UserCreation101.avif)](images/full/NiloPT_UserCreation101.png?raw=true)
+[![UserCreation102](images/preview/NiloPT_UserCreation102.avif)](images/full/NiloPT_UserCreation102.png?raw=true)
+[![UserCreation103](images/preview/NiloPT_UserCreation103.avif)](images/full/NiloPT_UserCreation103.png?raw=true)
+[![UserCreation104](images/preview/NiloPT_UserCreation104.avif)](images/full/NiloPT_UserCreation104.png?raw=true)
+[![UserCreation105](images/preview/NiloPT_UserCreation105.avif)](images/full/NiloPT_UserCreation105.png?raw=true)
+[![UserCreation106](images/preview/NiloPT_UserCreation106.avif)](images/full/NiloPT_UserCreation106.png?raw=true)
+[![UserCreation107](images/preview/NiloPT_UserCreation107.avif)](images/full/NiloPT_UserCreation107.png?raw=true)
+[![UserCreation108](images/preview/NiloPT_UserCreation108.avif)](images/full/NiloPT_UserCreation108.png?raw=true)
+[![UserCreation109](images/preview/NiloPT_UserCreation109.avif)](images/full/NiloPT_UserCreation109.png?raw=true)
+[![UserCreation110](images/preview/NiloPT_UserCreation110.avif)](images/full/NiloPT_UserCreation110.png?raw=true)
+[![UserCreation111](images/preview/NiloPT_UserCreation111.avif)](images/full/NiloPT_UserCreation111.png?raw=true)
+[![UserCreation112](images/preview/NiloPT_UserCreation112.avif)](images/full/NiloPT_UserCreation112.png?raw=true)
+
 
 *NiloPathTracing 为独立产品，与 Unity Technologies 或 NVIDIA 无关联，亦未获其背书。Unity、URP、RTX、DLSS 与 DirectX 为其各自所有者的商标。*

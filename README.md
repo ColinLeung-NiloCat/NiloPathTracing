@@ -6,7 +6,7 @@
 - No learning curve. No edits to scene assets are required.
 - Native [NiloToon](https://github.com/ColinLeung-NiloCat/UnityURPToonLitShaderExample) character support inside the path tracer.
 - Built for music videos (MVs), 3D Live, concerts and virtual production. A new era for Unity lighting, made for the VTuber industry.
-- NiloPT videos: [MV1](https://youtu.be/9nlSDtqcS-Q) / [MV2](https://youtu.be/t_yeGLrhi6Q) / [MV3](https://youtu.be/FVIbkuZhtq0) / [MV4](https://youtu.be/iq7ACdJfv8U) / [MV5](https://youtu.be/U4a0Vj2BxVY) / [MV6](https://youtu.be/wgxyj_5rET8) / [MV7](https://www.youtube.com/watch?v=paCZO7G3YKE) / [PView1](https://youtu.be/vfMJ43fT3os) / [PView2](https://youtu.be/tb0aHot0VwQ) / [PView3](https://youtu.be/I0l9cNORIpM)
+- NiloPT videos: [MV1](https://youtu.be/9nlSDtqcS-Q) / [MV2](https://youtu.be/t_yeGLrhi6Q) / [MV3](https://youtu.be/FVIbkuZhtq0) / [MV4](https://youtu.be/iq7ACdJfv8U) / [MV5](https://youtu.be/U4a0Vj2BxVY) / [MV6](https://youtu.be/wgxyj_5rET8) / [MV7](https://www.youtube.com/watch?v=paCZO7G3YKE) / [MV8](https://www.youtube.com/watch?v=GEnSB1JBfc4) / [PView1](https://youtu.be/vfMJ43fT3os) / [PView2](https://youtu.be/tb0aHot0VwQ) / [PView3](https://youtu.be/I0l9cNORIpM)
 
 ## NiloPT ON/OFF (One-click)
 [![Banner7](images/preview/NiloPT_Banner7.avif)](images/full/NiloPT_Banner7.avif?raw=true)
@@ -199,5 +199,22 @@ NiloPT replaces most of the existing rasterization lighting tools from URP / Ass
 [![UserCreation98](images/preview/NiloPT_UserCreation98.avif)](images/full/NiloPT_UserCreation98.png?raw=true)
 [![UserCreation99](images/preview/NiloPT_UserCreation99.avif)](images/full/NiloPT_UserCreation99.png?raw=true)
 [![UserCreation100](images/preview/NiloPT_UserCreation100.avif)](images/full/NiloPT_UserCreation100.png?raw=true)
+
+### 위시스 WISHes (https://www.youtube.com/@WISHes_grim)
+- [【 MV 】 WISHes(위시스) - I MY ME MINE](https://www.youtube.com/watch?v=GEnSB1JBfc4)
+
+[![UserCreation101](images/preview/NiloPT_UserCreation101.avif)](images/full/NiloPT_UserCreation101.png?raw=true)
+[![UserCreation102](images/preview/NiloPT_UserCreation102.avif)](images/full/NiloPT_UserCreation102.png?raw=true)
+[![UserCreation103](images/preview/NiloPT_UserCreation103.avif)](images/full/NiloPT_UserCreation103.png?raw=true)
+[![UserCreation104](images/preview/NiloPT_UserCreation104.avif)](images/full/NiloPT_UserCreation104.png?raw=true)
+[![UserCreation105](images/preview/NiloPT_UserCreation105.avif)](images/full/NiloPT_UserCreation105.png?raw=true)
+[![UserCreation106](images/preview/NiloPT_UserCreation106.avif)](images/full/NiloPT_UserCreation106.png?raw=true)
+[![UserCreation107](images/preview/NiloPT_UserCreation107.avif)](images/full/NiloPT_UserCreation107.png?raw=true)
+[![UserCreation108](images/preview/NiloPT_UserCreation108.avif)](images/full/NiloPT_UserCreation108.png?raw=true)
+[![UserCreation109](images/preview/NiloPT_UserCreation109.avif)](images/full/NiloPT_UserCreation109.png?raw=true)
+[![UserCreation110](images/preview/NiloPT_UserCreation110.avif)](images/full/NiloPT_UserCreation110.png?raw=true)
+[![UserCreation111](images/preview/NiloPT_UserCreation111.avif)](images/full/NiloPT_UserCreation111.png?raw=true)
+[![UserCreation112](images/preview/NiloPT_UserCreation112.avif)](images/full/NiloPT_UserCreation112.png?raw=true)
+
 
 *NiloPathTracing is an independent product and is not affiliated with or endorsed by Unity Technologies or NVIDIA. Unity, URP, RTX, DLSS and DirectX are trademarks of their respective owners.*
