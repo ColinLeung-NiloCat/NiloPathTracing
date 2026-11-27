@@ -1,0 +1,134 @@
+<!doctype html>
+<html lang="zh-Hant">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>Zero Day</title>
+<style>
+html, body {width:100%;height:100%;margin:0;background:#000}
+body {position:relative;color:#fff;font:12px system-ui,sans-serif}
+#surface {display:block;width:100%;height:100%;padding:0;border:0;background:#000;cursor:pointer}
+#surface:focus-visible {outline:2px solid #ffb659;outline-offset:-2px}
+video {display:block;width:100%;height:100%;object-fit:contain}
+.timeline {
+  position:absolute;inset:auto 0 0;padding:22px 16px max(6px, env(safe-area-inset-bottom));
+  background:linear-gradient(transparent,rgba(0,0,0,.78));pointer-events:none
+}
+#clock {font-variant-numeric:tabular-nums;text-shadow:0 1px 2px #000}
+#seek {
+  --progress:0%;
+  display:block;width:100%;height:22px;margin:0;padding:0;border:0;
+  appearance:none;pointer-events:auto;cursor:pointer;
+  background:linear-gradient(to right,#ff3351 var(--progress),rgba(255,255,255,.45) var(--progress)) center / 100% 3px no-repeat
+}
+#seek:focus-visible {outline:2px solid #ffb659;outline-offset:1px}
+#seek::-webkit-slider-thumb {appearance:none;width:12px;height:12px;border:0;border-radius:50%;background:#ff3351}
+#seek::-moz-range-thumb {width:12px;height:12px;border:0;border-radius:50%;background:#ff3351}
+#feedback {
+  position:absolute;top:50%;left:50%;transform:translate(-50%,-50%);
+  display:grid;width:72px;height:72px;place-items:center;border-radius:50%;
+  background:rgba(0,0,0,.72);opacity:0;pointer-events:none
+}
+#feedback[data-action="pause"]::before {content:"";box-sizing:border-box;width:20px;height:25px;border-inline:6px solid #fff}
+#feedback[data-action="play"]::before {content:"";margin-left:4px;border-block:13px solid transparent;border-left:20px solid #fff}
+#original {position:absolute;top:50%;left:50%;transform:translate(-50%, -50%);color:#fff}
+</style>
+</head>
+<body>
+<button id="surface" type="button" aria-label="播放">
+  <video width="1920" height="1080" autoplay muted loop playsinline>
+    <source src="NiloPT_Banner9.mp4" type='video/mp4; codecs="av01.1.08M.10"'>
+    <source src="NiloPT_Banner9_compatible.mp4" type='video/mp4; codecs="avc1.640029"'>
+  </video>
+</button>
+<div id="feedback" aria-hidden="true"></div>
+<div class="timeline">
+  <div id="clock" aria-hidden="true">0:00 / 0:00</div>
+  <input id="seek" type="range" min="0" max="1" step="any" value="0" aria-label="播放進度" disabled>
+</div>
+<a id="original" href="https://github.com/ColinLeung-NiloCat/NiloPathTracing/blob/main/images/full/NiloPT_Banner9.md" hidden>AVIF</a>
+<script>
+const video = document.querySelector("video");
+const surface = document.querySelector("#surface");
+const original = document.querySelector("#original");
+video.querySelector("source:last-child").addEventListener("error", showOriginal);
+video.addEventListener("error", showOriginal);
+video.addEventListener("loadeddata", () => { original.hidden = true; });
+function showOriginal() {
+  original.hidden = false;
+}
+const seek = document.querySelector("#seek");
+const clock = document.querySelector("#clock");
+const feedback = document.querySelector("#feedback");
+let feedbackAnimation;
+let seekPointer = null;
+let resumeAfterSeek = false;
+
+function updateLabel() {
+  surface.setAttribute("aria-label", video.paused ? "播放" : "暫停");
+}
+
+function formatTime(seconds) {
+  const total = Math.floor(seconds);
+  return Math.floor(total / 60) + ":" + String(total % 60).padStart(2, "0");
+}
+
+function updateTimeline() {
+  const duration = Number.isFinite(video.duration) ? video.duration : 0;
+  const time = video.currentTime;
+  seek.disabled = duration === 0;
+  seek.max = duration || 1;
+  seek.valueAsNumber = time;
+  seek.style.setProperty("--progress", (duration ? time * 100 / duration : 0) + "%");
+  clock.textContent = formatTime(time) + " / " + formatTime(duration);
+  seek.setAttribute("aria-valuetext", clock.textContent);
+}
+
+function showFeedback(action) {
+  feedback.dataset.action = action;
+  feedbackAnimation?.cancel();
+  const reducedMotion = matchMedia("(prefers-reduced-motion: reduce)").matches;
+  const frames = reducedMotion ? [{opacity:1}, {opacity:0}] : [
+    {opacity:1, transform:"translate(-50%, -50%) scale(.78)"},
+    {opacity:.82, transform:"translate(-50%, -50%) scale(1.02)", offset:.20},
+    {opacity:0, transform:"translate(-50%, -50%) scale(1.14)"}
+  ];
+  feedbackAnimation = feedback.animate(frames, {duration:540, easing:"ease-out"});
+}
+
+video.addEventListener("play", updateLabel);
+video.addEventListener("pause", updateLabel);
+video.addEventListener("loadedmetadata", updateTimeline);
+video.addEventListener("timeupdate", updateTimeline);
+surface.addEventListener("click", () => {
+  if (video.paused) {
+    video.play().then(() => showFeedback("play")).catch(updateLabel);
+  } else {
+    video.pause();
+    showFeedback("pause");
+  }
+});
+
+seek.addEventListener("pointerdown", event => {
+  if (seekPointer !== null) return;
+  seekPointer = event.pointerId;
+  resumeAfterSeek = !video.paused;
+  if (resumeAfterSeek) video.pause();
+});
+seek.addEventListener("input", () => {
+  video.currentTime = seek.valueAsNumber;
+  updateTimeline();
+});
+function finishSeek(event) {
+  if (seekPointer !== event.pointerId) return;
+  seekPointer = null;
+  if (resumeAfterSeek) video.play().catch(updateLabel);
+  resumeAfterSeek = false;
+}
+window.addEventListener("pointerup", finishSeek);
+window.addEventListener("pointercancel", finishSeek);
+updateLabel();
+updateTimeline();
+</script>
+</body>
+</html>
