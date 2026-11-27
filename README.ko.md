@@ -11,6 +11,7 @@
 ## NiloPT ON/OFF (클릭 한 번)
 [![Banner7](images/preview/NiloPT_Banner7.avif)](images/full/NiloPT_Banner7.avif?raw=true)
 [![Banner9](images/preview/NiloPT_Banner9.avif)](images/full/NiloPT_Banner9.avif?raw=true)
+[![Banner8](images/preview/NiloPT_Banner8.avif)](images/full/NiloPT_Banner8.avif?raw=true)
 [![Banner6](images/preview/NiloPT_Banner6.avif)](images/full/NiloPT_Banner6.avif?raw=true)
 [![Banner1](images/preview/NiloPT_Banner1.avif)](images/full/NiloPT_Banner1.avif?raw=true)
 [![Banner2](images/preview/NiloPT_Banner2.avif)](images/full/NiloPT_Banner2.avif?raw=true)
