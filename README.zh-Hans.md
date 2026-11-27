@@ -9,7 +9,7 @@
 - NiloPT 视频：[MV1](https://youtu.be/9nlSDtqcS-Q) / [MV2](https://youtu.be/t_yeGLrhi6Q) / [MV3](https://youtu.be/FVIbkuZhtq0) / [MV4](https://youtu.be/iq7ACdJfv8U) / [MV5](https://youtu.be/U4a0Vj2BxVY) / [MV6](https://youtu.be/wgxyj_5rET8) / [MV7](https://www.youtube.com/watch?v=paCZO7G3YKE) / [MV8](https://www.youtube.com/watch?v=GEnSB1JBfc4) / [PView1](https://youtu.be/vfMJ43fT3os) / [PView2](https://youtu.be/tb0aHot0VwQ) / [PView3](https://youtu.be/I0l9cNORIpM)
 
 ## 一键开启 / 关闭 NiloPT
-[![Banner7](images/preview/NiloPT_Banner7.avif)](https://colinleung-nilocat.github.io/NiloPathTracing/index.html)
+[![Banner7](images/preview/NiloPT_Banner7.avif)](https://colinleung-nilocat.github.io/NiloPathTracing/NiloPT_Banner7.html)
 [![Banner9](images/preview/NiloPT_Banner9.avif)](https://colinleung-nilocat.github.io/NiloPathTracing/NiloPT_Banner9.html)
 [![Banner8](images/preview/NiloPT_Banner8.avif)](images/full/NiloPT_Banner8.avif?raw=true)
 [![Banner6](images/preview/NiloPT_Banner6.avif)](images/full/NiloPT_Banner6.avif?raw=true)
