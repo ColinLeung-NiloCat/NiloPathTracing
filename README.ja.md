@@ -10,6 +10,7 @@
 
 ## NiloPT ON/OFF（ワンクリック）
 [![Banner7](images/preview/NiloPT_Banner7.avif)](images/full/NiloPT_Banner7.avif?raw=true)
+[![Banner9](images/preview/NiloPT_Banner9.avif)](images/full/NiloPT_Banner9.avif?raw=true)
 [![Banner6](images/preview/NiloPT_Banner6.avif)](images/full/NiloPT_Banner6.avif?raw=true)
 [![Banner1](images/preview/NiloPT_Banner1.avif)](images/full/NiloPT_Banner1.avif?raw=true)
 [![Banner2](images/preview/NiloPT_Banner2.avif)](images/full/NiloPT_Banner2.avif?raw=true)
@@ -216,5 +217,9 @@ NiloPT は、URP / Asset Store / GitHub にある従来の rasterization 用ラ�
 [![UserCreation111](images/preview/NiloPT_UserCreation111.avif)](images/full/NiloPT_UserCreation111.png?raw=true)
 [![UserCreation112](images/preview/NiloPT_UserCreation112.avif)](images/full/NiloPT_UserCreation112.png?raw=true)
 
+## クレジット
+
+- Watercolor は Angelo Ferretti の作品です（[pbrt-v4 シーン](https://github.com/mmp/pbrt-v4-scenes#watercolor)）。
+- Zero Day は Mike “Beeple” Winkelmann の作品です。[pbrt-v4](https://github.com/mmp/pbrt-v4-scenes#zero-day) と [NVIDIA ORCA](https://developer.nvidia.com/orca/beeple-zero-day)（[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)）の素材をもとに改変しました。
 
 *NiloPathTracing は独立した製品であり、Unity Technologies および NVIDIA とは提携・承認関係にありません。Unity、URP、RTX、DLSS、DirectX は各社の商標です。*

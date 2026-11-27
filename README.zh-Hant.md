@@ -10,6 +10,7 @@
 
 ## 一鍵開啟 / 關閉 NiloPT
 [![Banner7](images/preview/NiloPT_Banner7.avif)](images/full/NiloPT_Banner7.avif?raw=true)
+[![Banner9](images/preview/NiloPT_Banner9.avif)](images/full/NiloPT_Banner9.avif?raw=true)
 [![Banner6](images/preview/NiloPT_Banner6.avif)](images/full/NiloPT_Banner6.avif?raw=true)
 [![Banner1](images/preview/NiloPT_Banner1.avif)](images/full/NiloPT_Banner1.avif?raw=true)
 [![Banner2](images/preview/NiloPT_Banner2.avif)](images/full/NiloPT_Banner2.avif?raw=true)
@@ -216,5 +217,9 @@ NiloPT 可取代 URP / Asset Store / GitHub 中大部分現有的 rasterization 
 [![UserCreation111](images/preview/NiloPT_UserCreation111.avif)](images/full/NiloPT_UserCreation111.png?raw=true)
 [![UserCreation112](images/preview/NiloPT_UserCreation112.avif)](images/full/NiloPT_UserCreation112.png?raw=true)
 
+## 作品來源
+
+- Watercolor 由 Angelo Ferretti 創作（[pbrt-v4 場景](https://github.com/mmp/pbrt-v4-scenes#watercolor)）。
+- Zero Day 由 Mike「Beeple」Winkelmann 創作。改編自 [pbrt-v4](https://github.com/mmp/pbrt-v4-scenes#zero-day) 和 [NVIDIA ORCA](https://developer.nvidia.com/orca/beeple-zero-day)（[CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)）。
 
 *NiloPathTracing 為獨立產品，與 Unity Technologies 或 NVIDIA 無關聯，亦未獲其背書。Unity、URP、RTX、DLSS 與 DirectX 為其各自所有者的商標。*

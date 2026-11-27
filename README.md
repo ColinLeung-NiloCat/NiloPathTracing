@@ -10,6 +10,7 @@
 
 ## NiloPT ON/OFF (One-click)
 [![Banner7](images/preview/NiloPT_Banner7.avif)](images/full/NiloPT_Banner7.avif?raw=true)
+[![Banner9](images/preview/NiloPT_Banner9.avif)](images/full/NiloPT_Banner9.avif?raw=true)
 [![Banner6](images/preview/NiloPT_Banner6.avif)](images/full/NiloPT_Banner6.avif?raw=true)
 [![Banner1](images/preview/NiloPT_Banner1.avif)](images/full/NiloPT_Banner1.avif?raw=true)
 [![Banner2](images/preview/NiloPT_Banner2.avif)](images/full/NiloPT_Banner2.avif?raw=true)
@@ -216,5 +217,9 @@ NiloPT replaces most of the existing rasterization lighting tools from URP / Ass
 [![UserCreation111](images/preview/NiloPT_UserCreation111.avif)](images/full/NiloPT_UserCreation111.png?raw=true)
 [![UserCreation112](images/preview/NiloPT_UserCreation112.avif)](images/full/NiloPT_UserCreation112.png?raw=true)
 
+## Credits
+
+- Watercolor by Angelo Ferretti ([pbrt-v4 scene](https://github.com/mmp/pbrt-v4-scenes#watercolor)).
+- Zero Day by Mike “Beeple” Winkelmann. Adapted from [pbrt-v4](https://github.com/mmp/pbrt-v4-scenes#zero-day) and [NVIDIA ORCA](https://developer.nvidia.com/orca/beeple-zero-day) ([CC BY 4.0](https://creativecommons.org/licenses/by/4.0/)).
 
 *NiloPathTracing is an independent product and is not affiliated with or endorsed by Unity Technologies or NVIDIA. Unity, URP, RTX, DLSS and DirectX are trademarks of their respective owners.*
